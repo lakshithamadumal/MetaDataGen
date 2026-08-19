@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="favGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff2d7a"/>
+      <stop offset="52%" stop-color="#ff4b3e"/>
+      <stop offset="100%" stop-color="#ff6a1a"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="16" fill="url(#favGrad)"/>
+  <!-- Crisp Star & Sparkles -->
+  <path fill="#ffffff" d="M32 14L35.8 25.2L47 29L35.8 32.8L32 44L28.2 32.8L17 29L28.2 25.2L32 14Z"/>
+  <path fill="#ffffff" opacity="0.9" d="M45 13L46.2 16.8L50 18L46.2 19.2L45 23L43.8 19.2L40 18L43.8 16.8L45 13Z"/>
+  <circle cx="19" cy="41" r="2.2" fill="#ffffff" opacity="0.8"/>
+</svg>
