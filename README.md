@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/favicon.svg" width="90" height="90" alt="MetaDataGen Logo" />
+  <img src="https://raw.githubusercontent.com/lakshithamadumal/MetaDataGen/main/assets/logo.svg" width="96" height="96" alt="MetaDataGen 3-Star Logo" />
   <h1>MetaDataGen (v1.0.0)</h1>
   <p><strong>Free AI-Powered Stock Metadata Generator for Adobe Stock, Shutterstock, Freepik & Microstocks.</strong></p>
 

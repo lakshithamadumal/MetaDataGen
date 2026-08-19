@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="96" height="96">
+  <defs>
+    <linearGradient id="logoGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff2d7a"/>
+      <stop offset="52%" stop-color="#ff4b3e"/>
+      <stop offset="100%" stop-color="#ff6a1a"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#logoGrad)"/>
+  
+  <!-- 3 White Rounded Sparkle Stars -->
+  <g transform="translate(32, 32) scale(0.72) translate(-32, -32)" fill="#ffffff" stroke="#ffffff" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round">
+    <!-- Main Center Star -->
+    <path d="M 32 12 C 32 23, 23 32, 12 32 C 23 32, 32 41, 32 52 C 32 41, 41 32, 52 32 C 41 32, 32 23, 32 12 Z"/>
+    
+    <!-- Top-Right Small Star -->
+    <path d="M 50 11 C 50 14.5, 47 17, 44 17 C 47 17, 50 19.5, 50 23 C 50 19.5, 53 17, 56 17 C 53 17, 50 14.5, 50 11 Z"/>
+    
+    <!-- Bottom-Left Medium Star -->
+    <path d="M 15 39 C 15 43, 12 46, 8 46 C 12 46, 15 49, 15 53 C 15 49, 18 46, 22 46 C 18 46, 15 43, 15 39 Z"/>
+  </g>
+</svg>
