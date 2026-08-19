@@ -15,8 +15,11 @@
 
 .text-brand-gradient {
   background: linear-gradient(135deg, #ff2d7a 0%, #ff4b3e 52%, #ff6a1a 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
+  display: inline-block;
 }
 
 .border-brand-gradient {

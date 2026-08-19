@@ -22,7 +22,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenGuidelines, onOpenFaq }) =
               href="https://github.com/lakshithamadumal"
               target="_blank"
               rel="noreferrer"
-              className="font-extrabold text-slate-900 bg-brand-gradient bg-clip-text text-transparent hover:opacity-80 transition-opacity"
+              className="font-black text-brand-gradient hover:underline ml-0.5 cursor-pointer"
             >
               Lakshitha Madumal
             </a>
