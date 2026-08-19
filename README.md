@@ -1,8 +1,17 @@
-# 🌟 MetaDataGen (v1.0.0)
+<div align="center">
+  <img src="public/favicon.svg" width="90" height="90" alt="MetaDataGen Logo" />
+  <h1>MetaDataGen (v1.0.0)</h1>
+  <p><strong>Free AI-Powered Stock Metadata Generator for Adobe Stock, Shutterstock, Freepik & Microstocks.</strong></p>
 
-> **Free AI-Powered Stock Metadata Generator for Adobe Stock, Shutterstock, Freepik & Microstocks.**
+  <p>
+    <a href="https://metadatagen-sage.vercel.app/"><strong>🌐 Live Website Demo: metadatagen-sage.vercel.app</strong></a>
+  </p>
+</div>
 
-![MetaDataGen Screenshot](public/favicon.svg)
+---
+
+## 🔗 Live Application
+👉 **Website:** [https://metadatagen-sage.vercel.app/](https://metadatagen-sage.vercel.app/)
 
 ---
 
