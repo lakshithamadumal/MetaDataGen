@@ -10,17 +10,18 @@ export const AppLogo: React.FC<{ className?: string }> = ({ className = 'w-10 h-
       </linearGradient>
     </defs>
     <rect x="4" y="4" width="56" height="56" rx="16" fill="url(#vmGrad)" />
-    {/* Clean White Star & Sparkles */}
-    <path
-      fill="#ffffff"
-      d="M32 14L35.8 25.2L47 29L35.8 32.8L32 44L28.2 32.8L17 29L28.2 25.2L32 14Z"
-    />
-    <path
-      fill="#ffffff"
-      opacity="0.9"
-      d="M45 13L46.2 16.8L50 18L46.2 19.2L45 23L43.8 19.2L40 18L43.8 16.8L45 13Z"
-    />
-    <circle cx="19" cy="41" r="2.2" fill="#ffffff" opacity="0.8" />
+    
+    {/* 3 White Rounded Sparkle Stars (Compact & Perfectly Balanced) */}
+    <g transform="translate(32, 32) scale(0.72) translate(-32, -32)" fill="#ffffff" stroke="#ffffff" strokeWidth="2.2" strokeLinejoin="round" strokeLinecap="round">
+      {/* Main Center Star */}
+      <path d="M 32 12 C 32 23, 23 32, 12 32 C 23 32, 32 41, 32 52 C 32 41, 41 32, 52 32 C 41 32, 32 23, 32 12 Z" />
+      
+      {/* Top-Right Small Star */}
+      <path d="M 50 11 C 50 14.5, 47 17, 44 17 C 47 17, 50 19.5, 50 23 C 50 19.5, 53 17, 56 17 C 53 17, 50 14.5, 50 11 Z" />
+      
+      {/* Bottom-Left Medium Star */}
+      <path d="M 15 39 C 15 43, 12 46, 8 46 C 12 46, 15 49, 15 53 C 15 49, 18 46, 22 46 C 18 46, 15 43, 15 39 Z" />
+    </g>
   </svg>
 );
 
